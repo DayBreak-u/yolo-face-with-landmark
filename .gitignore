@@ -1,0 +1,34 @@
+*.o
+*.a
+*.dSYM
+*.csv
+*.out
+*.so
+*.exe
+*.dll
+*.lib
+*.dylib
+.idea/
+
+
+# OS Generated #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
+# IDE generated #
+.vs/
+.vscode/
+.idea/
+# Managed by CMake
+src/version.h
+
+# Build artifacts
+lib/
+share/
+include/darknet/
+uselib
+uselib_track
+
