@@ -55,6 +55,7 @@ mbv3samll_1.0_yolov3(our)  |0.856|0.827|0.602
 mbv3small_1.0_yolov3_light(our)  |0.847|0.807|0.578
 mbv3samll_0.75_yolov3(our)  |0.841|0.815|0.584
 mbv3small_0.75_yolov3_light(our)  |0.832|0.796|0.553
+
 ps: 测试的时候,长边为320 或者 640 ,图像等比例缩放
 
 ## 测试
