@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../darknet_face_with_5landmark/.idea/darknet_face_with_5landmark.iml" filepath="$PROJECT_DIR$/../darknet_face_with_5landmark/.idea/darknet_face_with_5landmark.iml" />
+      <module fileurl="file:///Volumes/huiyu2_pro/myself/mmdetection_lite/.idea/mmdetection_lite.iml" filepath="/Volumes/huiyu2_pro/myself/mmdetection_lite/.idea/mmdetection_lite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/yolo-with-point.iml" filepath="$PROJECT_DIR$/.idea/yolo-with-point.iml" />
+    </modules>
+  </component>
+</project>
