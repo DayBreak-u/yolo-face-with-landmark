@@ -48,13 +48,13 @@ mbv3small_0.75_yolov3_light(our)  |0.754|0.647|0.291|80M
 ------|--------|----------|--------
 Retinaface-Mobilenet-0.25(mxnet)  |0.879|0.807|0.481
 mbv3large_1.0_yolov3(our)  |**0.900**|**0.882**|**0.707**
-mbv3large_1.0_yolov3_light(our)  |0.900|0.874|0.683|
+mbv3large_1.0_yolov3_light(our)  |0.900|0.874|0.683
 mbv3large_0.75_yolov3(our)  |0.886|0.871|0.694|
 mbv3large_0.75_yolov3_light(our)  |0.881|0.862|0.678
 mbv3samll_1.0_yolov3(our)  |0.856|0.827|0.602
 mbv3small_1.0_yolov3_light(our)  |0.847|0.807|0.578
 mbv3samll_0.75_yolov3(our)  |0.841|0.815|0.584
-mbv3small_0.75_yolov3_light(our)  |0.832|0.796|0.553|
+mbv3small_0.75_yolov3_light(our)  |0.832|0.796|0.553
 ps: 测试的时候,长边为320 或者 640 ,图像等比例缩放
 
 ## 测试
