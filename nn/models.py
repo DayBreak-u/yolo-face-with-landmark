@@ -82,9 +82,11 @@ class FPN(nn.Module):
         if light_mode:
             self.merge1 = conv_dw(out_channels,out_channels,1)
             self.merge2 = conv_dw(out_channels,out_channels,1)
+            self.merge3 = conv_dw(out_channels,out_channels,1)
         else:
             self.merge1 = conv_bn(out_channels, out_channels)
             self.merge2 = conv_bn(out_channels, out_channels)
+            self.merge3 = conv_bn(out_channels, out_channels)
 
     def forward(self, input):
 
@@ -95,14 +97,15 @@ class FPN(nn.Module):
 
         up3 = F.interpolate(output3_, size=[output2_.size(2), output2_.size(3)], mode="nearest")
         output2 = output2_ + up3
-        output2 = self.merge2(output2)
 
         up2 = F.interpolate(output2, size=[output1_.size(2), output1_.size(3)], mode="nearest")
         output1 = output1_ + up2
-        output1 = self.merge1(output1)
 
+        output3 = self.merge3(output3_)
+        output2 = self.merge2(output2)
+        output1 = self.merge1(output1)
         # out = [output1, output2]
-        out = [output1, output2, output3_]
+        out = [output1, output2, output3]
         return out
 
 
