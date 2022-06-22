@@ -1,5 +1,5 @@
 tqdm==4.40.1
-numpy==1.18.3
+numpy==1.22.0
 torch==1.4.0
 matplotlib==3.1.2
 thop==0.0.31.post1912272122
